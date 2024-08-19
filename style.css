@@ -1,0 +1,54 @@
+body {
+    color: white;
+    background-image: url(images/backgroundimage.jpg) ;
+    margin: 0px;
+    h1{
+        font-size: 35px;
+    }
+    p {
+        font-size: 15px;
+    }
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(87, 155, 243);
+    padding: 20px;
+    font-size: 32px;
+}
+
+.chamada {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-top: 80px;
+    justify-content: center;
+    display: grid;
+}
+
+.chamada-texto {
+    margin-right: 50%;
+}
+.categoriavi {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoriavi img {
+    opacity: 0.5;
+    height: 170px;
+}
+.categoriavi img:hover {
+    opacity: 1.0;
+    border: 1px solid white;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+img {
+    height: 200px;
+}
